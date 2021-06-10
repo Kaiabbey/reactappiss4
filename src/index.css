@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightgrey;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.harness{
+
+  display: none;
+}
+
+.greyhound{
+  display: none;
+}
+
+nav > ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 0 10vw;
+}
+
+a{
+  color: black;
+  font-size: larger;
+  font-style: oblique;
+  font-weight: 600; 
+  border-radius: 7px;
+  filter: drop-shadow(black 1px 3px 2px);
+  transition: .4s;
+  background-color: #ff5356;
+}
+
+a:visited{
+  color: black;
+}
+
+div> ul{
+  filter: drop-shadow(black 0px 7px 7px);
+}
+
+nav{
+  margin: 20px 0;
+}
+
+header{
+  background-color: #d32123;
+  overflow: hidden;
+  margin: 0;
+  filter: drop-shadow(black -1px 4px 7px);
+}
+
+section{
+  padding-top: 30px;
+}
+
+.active{
+  background-color: white;
+}
+
+h1{
+  margin-bottom: 30px;
+  color: black;
+  filter: drop-shadow(red 1px 1px 10px);
+  font-style: oblique;
+}
+
+.racerefresh{
+  position: fixed;
+  background-color: #ff5356;
+  top: 0;
+  left: 0;
+  margin:16px;
+  padding: 8px;
+  filter: drop-shadow(black 3px 3px 5px);
+  transition: .4s;
+}
+
+.racerefresh:focus{
+  outline: none;
+}
+
+.racerefresh:hover{
+  background-color: white;
+}
